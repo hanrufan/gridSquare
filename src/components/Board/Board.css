@@ -1,0 +1,13 @@
+.btn {
+    width: 2rem;
+    height: 2rem;
+}
+
+.displayCount {
+    visibility: visible;
+    color: #ffffff;
+}
+
+.hideCount {
+    visibility: hidden;
+}

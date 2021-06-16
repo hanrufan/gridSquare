@@ -1,0 +1,43 @@
+.c-main {
+    margin: 10%;
+}
+
+.c-input {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.c-input--label {
+    display: block;
+    font-size: 1rem;
+    margin: auto .5rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.c-input--input {
+    border: 0.0625rem solid #bbb;
+    border-radius: 1.25rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.c-input--text {
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+.c-input--btn {
+    padding: 0.75rem;
+    border-radius: 1.25rem;
+    border: 0.0625rem solid #bbb;
+    font-weight: 500;
+}
+
+.c-main--bg-picker {
+    display: flex;
+    justify-content: flex-end;
+}
