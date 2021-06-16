@@ -78,6 +78,6 @@ const Main = () => {
             <Grid size={size} colour={colour} hoverColour={hoverColour}/>
         </div>
     )
-}
+};
 
-export default Main
+export default Main;

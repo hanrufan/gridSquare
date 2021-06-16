@@ -94,7 +94,6 @@ const Board = ({boardGrid, size, colour, hoverColour}) => {
     return (
         <div>
             {
-                size ?
                 boardGrid.map((item, i) => (
                     <>
                         <br/>
@@ -122,8 +121,7 @@ const Board = ({boardGrid, size, colour, hoverColour}) => {
                             })
                         }              
                     </>
-                )) :
-                null
+                ))
             }
         </div>
     )
